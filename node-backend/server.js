@@ -5,7 +5,7 @@ const http = require('http');
 const app = express();
 const {jsonifySettings} = require('aligned-arrays');
 const PORT = process.env.PORT || 3000;
-const GO_BACKEND_URL = process.env.GO_BACKEND_URL || 'http://localhost:8080';
+const GO_BACKEND_URL = process.env.GO_BACKEND_URL || 'http://localhost:8081';
 
 // Middleware
 app.use(cors());
