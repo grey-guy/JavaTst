@@ -1,6 +1,6 @@
 #!/bin/bash
 # Simple script to download and use Maven if not available
-export JAVA_HOME=${JAVA_HOME:-/usr/lib/jvm/java-11-graalvm}
+export JAVA_HOME=${JAVA_HOME:-/usr/lib/jvm/jdk-17.0.12-oracle-x64}
 
 if ! command -v mvn &> /dev/null; then
     echo "Maven not found. Please install Maven:"

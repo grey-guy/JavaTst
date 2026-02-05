@@ -9,6 +9,7 @@ Modern React frontend built with Vite that consumes the Java backend API.
 npm install
 ```
 
+
 2. Start the development server:
 ```bash
 npm run dev
